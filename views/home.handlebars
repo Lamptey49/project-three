@@ -1,0 +1,102 @@
+<div class="logo">
+PaSe
+</div>
+<div class="grid-card">
+
+    <div class="card extend" >
+        <div>
+            <span style="font-size: 20px; font-weight:bold">Country</span> 
+            
+        </div>
+        <div class="">
+            <p>Ghana</p>
+        </div>
+    </div>
+    <div class="card extend" >
+        <div>
+            <span style="font-size: 20px; font-weight:bold">Active Cases</span> 
+            <img src=""  alt="indicator"/>
+        </div>
+        <div>
+            <p>20,000</p>
+        </div>
+    </div>
+    <div class="card extend" >
+        <div>
+            <span style="font-size: 20px; font-weight:bold">Recoveries</span> 
+            <img src=""  alt="indicator"/>
+        </div>
+        <div>
+            <p>20,000</p>
+        </div>
+    </div>
+    <div class="card extend" >
+        <div>
+            <span style="font-size: 20px; font-weight:bold">Confirmed Cases</span> 
+            <img src=""  alt="indicator"/>
+        </div>
+        <div>
+            <p>20,000</p>
+        </div>
+    </div>
+</div>
+
+<div class="row-container">
+
+<div>
+   <table border="1" class="table">
+       <tbody>
+           <th>Country</th>
+           <th>Active</th>
+           <th>Recoveries</th>
+           <th>Total Death</th>
+           <th>Confirmed Cases</th>
+       
+            {{#each data}}
+           <tr>
+            <td>{{country}}</td>
+            <td>{{active}}</td>
+            <td>{{recoveries}}</td>
+            <td>{{death}}</td>
+            <td>{{confirmed}}</td>
+        </tr>
+        {{/each }}
+       </tbody>
+   </table>
+   
+</div>
+    
+
+
+<div class="right-card">
+    <div class="card2">
+         <div>
+            <span style="font-size: 20px; color:red; font-weight:bold">Health Tips</span> 
+            
+        </div>
+        <div>
+            <p>Wash your hands after visiting the washroom.</p>
+            <p>Wear nose mask anytime you step out from home.</p>
+            <p>Cover your mouth anytime you are coughing.</p>
+        </div>
+    </div>
+    <div class="card2">
+        <div>
+            <span style="font-size: 20px; font-weight:bold">Total Cases</span> 
+        </div>
+        <div>
+            <p>20,000</p>
+        </div>
+    </div>
+</div>
+</div>
+<table border="1">
+    
+</table>
+
+
+<footer class="footer">
+   <h3>
+    Copyright &copy; PaSe Covid Data - Designed By Phinehas Lamptey
+   </h3> 
+</footer>
